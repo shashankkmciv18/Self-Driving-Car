@@ -24,7 +24,7 @@ The goals / steps of this project are the following:
 [image3]: ./c3/t340.jpg "Binary Example"
 [image4]: ./c2/t240.jpg "Warp Example"
 [image5]: ./c2/Lanepixel.jpg "Fit Visual"
-[image6]: ./output/output.jpg "Output"
+[image6]: ./c4/t311.png "Output"
 [video1]: ./project_video.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
