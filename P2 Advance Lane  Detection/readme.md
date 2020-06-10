@@ -23,7 +23,7 @@ The goals / steps of this project are the following:
 [image2]: ./c2/t247.jpg "Road Transformed"
 [image3]: ./c3/t340.jpg "Binary Example"
 [image4]: ./c2/t240.jpg "Warp Example"
-[image5]: ./c2/LanePixel.jpg "Fit Visual"
+[image5]: ./c2/Lanepixel.jpg "Fit Visual"
 [image6]: ./output/output.jpg "Output"
 [video1]: ./project_video.mp4 "Video"
 
