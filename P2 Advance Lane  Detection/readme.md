@@ -64,26 +64,22 @@ The code for my perspective transform includes a function called `warp()`, which
 Third warp(which is just present as code gives an satisfactory result).  The `warp()` function takes as inputs an image (`img`).  I chose the hardcode the source and destination points in the following manner:
 
 ```python
-src = np.float32(
-    [[(img_size[0] / 2) - 55, img_size[1] / 2 + 100],
-    [((img_size[0] / 6) - 10), img_size[1]],
-    [(img_size[0] * 5 / 6) + 60, img_size[1]],
-    [(img_size[0] / 2 + 55), img_size[1] / 2 + 100]])
-dst = np.float32(
-    [[(img_size[0] / 4), 0],
-    [(img_size[0] / 4), img_size[1]],
-    [(img_size[0] * 3 / 4), img_size[1]],
-    [(img_size[0] * 3 / 4), 0]])
+ src = np.float32(
+    [[((img_size[0] / 6) - 10), img_size[1]],[(img_size[0] / 2) - 55, img_size[1] / 2 + 100],
+    [(img_size[0] / 2 + 55), img_size[1]/ 2 + 100],[(img_size[0] * 5 / 6) + 60, img_size[1]]]
+    )
+
+    dst=np.float32([[240,720],[240,0],[1000,0],[1000,720]])
 ```
 
 This resulted in the following source and destination points:
 
 | Source        | Destination   | 
 |:-------------:|:-------------:| 
-| 585, 460      | 320, 0        | 
-| 203, 720      | 320, 720      |
-| 1127, 720     | 960, 720      |
-| 695, 460      | 960, 0        |
+| 170,720      | 240,720        | 
+| 485, 460      | 240, 0      |
+| 595, 460     | 1000, 0      |
+| 960, 720      | 1000, 720        |
 
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 This function returns an warp immage and 2 Matrix calles as M and Minv,whish are just transformation matrices from cource to sedtimnation and destination to source respectively.
