@@ -108,19 +108,19 @@ I implemented this in the same file with the finction named as ` in the function
 ---
 
 ### Pipeline 
-1.calibrated the caamera
-2.Undistort the image after points obtained from calibration
-3.mask the image using The function color_transform(out put is and maskedimage)
-4.Warp the image(i.e Undistorted image outputs are warped image,adn 2 matrices)
-5.Create an warptransformation to the warped image with Minv matrics for giving it the same porcepective
-6.apply color transformation to the warpedimage( using the function coolor_transformation)
-7.get an output image after using addWeight funcntion to the undistorted image and new warp image
-8.Fit polynomial usinf function fir_polynomial whise inputs is the image obtained in 6th step
-9.Calculate the curavature usinf function known as measure_curvature_real
-10.Draw lines on undistorted image these are the lines for lanes,This is output
-11.put   texts like curvature raddius and centre deflection to the given image
-12.I also have appended some of the image for an good visualisation
-13.Get output image and other required images , in my case they are an image containng image of output   4 and 7, another image of containg output of step 3 and 6, left curvature and right curvature         values outpur of step  6 and the Ouputt of step 10 i.e the main ouput
+1.calibrated the caamera </br>
+2.Undistort the image after points obtained from calibration </br>
+3.mask the image using The function color_transform(out put is and maskedimage) </br>
+4.Warp the image(i.e Undistorted image outputs are warped image,adn 2 matrices) </br>
+5.Create an warptransformation to the warped image with Minv matrics for giving it the same porcepective </br>
+6.apply color transformation to the warpedimage( using the function coolor_transformation) </br>
+7.get an output image after using addWeight funcntion to the undistorted image and new warp image </br>
+8.Fit polynomial usinf function fir_polynomial whise inputs is the image obtained in 6th step </br>
+9.Calculate the curavature usinf function known as measure_curvature_real </br>
+10.Draw lines on undistorted image these are the lines for lanes,This is output </br>
+11.put   texts like curvature raddius and centre deflection to the given image </br>
+12.I also have appended some of the image for an good visualisation </br>
+13.Get output image and other required images , in my case they are an image containng image of output   4 and 7, another image of containg output of step 3 and 6, left curvature and right curvature         values outpur of step  6 and the Ouputt of step 10 i.e the main ouput </br>
 14.Display it using opencv
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
