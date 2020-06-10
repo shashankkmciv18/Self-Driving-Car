@@ -100,7 +100,7 @@ I implemented this in the same file with the finction named as ` in the function
 
 ### Pipeline 
 1.calibrated the caamera </br>
-2.Undistort the image after points obtained from calibration </br>
+2.Undistort the image after points obtained from calibration However i was not using undistorted image in final pipeline as this made my code very slow </br>
 3.mask the image using The function color_transform(out put is and maskedimage) </br>
 4.Warp the image(i.e Undistorted image outputs are warped image,adn 2 matrices) </br>
 5.Create an warptransformation to the warped image with Minv matrics for giving it the same porcepective </br>
