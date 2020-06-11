@@ -124,4 +124,7 @@ Here's a [link to my video result](./output_video/Finaloutput.mp4)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+One of the major challenge faced in this was finding an add coordinate for warping as that involves a lot of practise/another was when i was tryng to unwarp the image of other dimenson to this dimesnion however that method was not applied here.
+This pipeline will mainly fail when there is a very sharp turn which will result in non detection of the lane and hence it will fail.
+I am trying to implement sliding window algorithm for making  it even more robust another technique which i am thinking is to use Deep learning model as using open cv is relatively slower to that.
+I have an rough sketch regarding this using like using Mixed Gaussian Ditribution alongside of Kalmanfilter and reverse Pid
