@@ -53,7 +53,7 @@ signs data set:
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+Here is an exploratory visualization of the data set. It is a distplot  showing how the data is distributed.
 
 ![alt text][image1]
 
@@ -61,23 +61,10 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 #### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
 
-As a first step, I decided to convert the images to grayscale because ...
-
-Here is an example of a traffic sign image before and after grayscaling.
-
+As the first step i have normalised the data , i have choosed minmax scalar over standarisation beacuse as per my experiences it works better in CNNN than that of standarisation.</br>
+After that i have applied an CNN as rest of feature extraction will be carrieed inside this CNN only, with help of Various filters.
 ![alt text][image2]
 
-As a last step, I normalized the image data because ...
-
-I decided to generate additional data because ... 
-
-To add more data to the the data set, I used the following techniques because ... 
-
-Here is an example of an original image and an augmented image:
-
-![alt text][image3]
-
-The difference between the original data set and the augmented data set is the following ... 
 
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
@@ -100,28 +87,30 @@ My final model consisted of the following layers:
 
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
-
-To train the model, I used an ....
+For training my model i basically made an model initially which gave me 89% result  on validation dataset and afterr fine tuning it with random search  from tensorflow.kerastuner  accuracy of that model became 93% on the validation set without any data augmentation techniques.
+Model will give even more accuracy if the dataset will be large, for that there is an technique of data augmentation, which i will do in future in spare time.
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* training set accuracy of ?
-* validation set accuracy of ? 
-* test set accuracy of ?
+* training set accuracy of 99.995%
+* validation set accuracy of 93%
+* test set accuracy of 94.5%
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
+First i have choosen VGG 16 architecture, because it is considered to be an good image classfication alggorithm </br>
+but when i was trying to train the model on my computer it take so much of time so i skipped it.
 * What were some problems with the initial architecture?
-* How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
+Main problem with the initial architecture was computational limitaion of my no doubt VGG 16 is an good algorithm but </br>
+with limited computer processing power training it on local machine might reuire a lot of computational power.
+*How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
+I removed some of the last layers of VGG 16 and trained it , i.e ib have only taken first 3 COnv2d layers so that it predicts enough good for this project.
 * Which parameters were tuned? How were they adjusted and why?
-* What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
+Initially the result was aroung 89% so i tuned whole model using Random SearchCv.
 
-If a well known architecture was chosen:
-* What architecture was chosen?
-* Why did you believe it would be relevant to the traffic sign application?
-* How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
- 
+* What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
+Well Convolutional layer with best hyperparameters bring this model to an state where it is maximum optimised.
 
 ### Test a Model on New Images
 
@@ -168,5 +157,5 @@ For the second image ...
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
-
+The output of trained Nueral Network is that it shows an number from 0-42 which basically means that 0 means some thing 1 means something and so on.Neueral Network may have taken various characterstic for this purpose ( basic purposes of the CNN like pattern matching and MaxPooling etc)
 
