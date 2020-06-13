@@ -85,17 +85,18 @@ The difference between the original data set and the augmented data set is the f
 My final model consisted of the following layers:
 
 | Layer         		|     Description	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
-| Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
-| RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
-| Convolution 3x3	    | etc.      									|
-| Fully connected		| etc.        									|
-| Softmax				| etc.        									|
-|						|												|
-|						|												|
- 
+| Input           	| Size=32x32x3                                                 	|
+|-----------------	|--------------------------------------------------------------	|
+| Conv2d(5x5)     	| filters=32,strides=(1,1),padding=valid,<br>activation='relu' 	|
+| Conv2d(4x4)     	| filter=80,strides=(1,1),padding='valid'<br>activation='relu' 	|
+| MaxPool2d       	| pool_size=(2,2),padding='valid',strides=(2,2)                	|
+| Dropout         	| rate=0.23882                                                 	|
+| Conv2D(3x3)     	| filter=64,stride=(1,1),padding='valid,<br>activation=relu    	|
+| MaxPool2d       	| pool_size=(2,2),padding='valid',strides=(1,1)                	|
+| Dropout         	| rate=0.43981                                                 	|
+| Flatten         	|                                                              	|
+| Fully connected 	| units=192,activation=tanh                                    	|
+| FullyConnected  	| units=43,activation=softmax                                  	| 
 
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
