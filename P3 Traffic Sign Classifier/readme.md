@@ -78,6 +78,12 @@ My final model consisted of the following layers:
 | Conv2D(3x3)     	| filter=64,stride=(1,1),padding='valid,<br>activation=relu    	|
 | MaxPool2d       	| pool_size=(2,2),padding='valid',strides=(1,1)                	|
 | Dropout         	| rate=0.43981                                                 	|
+|.                  |.                                                              |
+|.                  |.                                                              |
+|.                  |.  (please seee main.inpyb file there is full report)          |
+|.                  |.                                                              |
+|.                  |.                                                              |
+|.                  |.                                                              |
 | Flatten         	|                                                              	|
 | Fully connected 	| units=192,activation=tanh                                    	|
 | FullyConnected  	| units=43,activation=softmax                                  	| 
