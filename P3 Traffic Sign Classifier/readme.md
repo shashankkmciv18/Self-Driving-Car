@@ -121,10 +121,46 @@ Well Convolutional layer with best hyperparameters bring this model to an state 
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
-
-The first image might be difficult to classify because ...
+![alt text][image4]
+</br>
+[['Traffic signals', 2.3171337e-17],
+ ['Speed limit (50km/h)', 7.392017e-15],
+ ['Speed limit (20km/h)', 2.280922e-14],
+ ['Speed limit (70km/h)', 9.938535e-14],
+ ['Speed limit (30km/h)', 1.0]]
+</br>
+![alt text][image5]
+</br>
+[['Speed limit (30km/h)', 1.5306637e-22],
+ ['Ahead only', 5.2261523e-22],
+ ['Turn left ahead', 6.6438794e-22],
+ ['Roundabout mandatory', 7.694055e-21],
+ ['Turn right ahead', 1.0]]
+</br>
+![alt text][image6] 
+</br>
+[['Speed limit (100km/h)', 5.3222666e-06],
+ ['Speed limit (120km/h)', 1.0624367e-05],
+ ['Speed limit (60km/h)', 1.3820942e-05],
+ ['Speed limit (50km/h)', 0.000772773],
+ ['Speed limit (80km/h)', 0.9991961]]
+ </br>
+![alt text][image7] 
+</br>
+[['Turn left ahead', 6.584047e-18],
+ ['Traffic signals', 6.945318e-16],
+ ['Ahead only', 2.4448854e-13],
+ ['Keep left', 5.3049947e-13],
+ ['Turn right ahead', 1.0]]
+ </br>
+![alt text][image8]
+</br>
+[['Right-of-way at the next intersection', 3.9416917e-20],
+ ['Bumpy road', 4.1177044e-20],
+ ['Keep right', 4.5208295e-19],
+ ['Wild animals crossing', 1.1694021e-18],
+ ['Road work', 1.0]]
+</br>
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -132,14 +168,14 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| 30KM/H     		|30KM/h   									| 
+| Turn Right ahead     			|Turn Right ahead 										|
+|60 or 80Km/h				|80Km/h|
+| Turn Right ahead     			|Turn Right ahead 										|
+|Road work		|Road Work      							|
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
+The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of ...
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
@@ -149,15 +185,15 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+| 1.0        			|30Km/h   									| 
+|9.938535e-14,  Speed limit (70km/h)|,
+
+| 2.28e-14				| Speed Limit(20Km/h)|
+| 7.39e-15      			|Speed Limit(50Km/h)		 				|
+| 2.3e-17				    |Traffic Signal 							|
 
 
-For the second image ... 
-
+For the rest image the model is itself present inside the Last section of main Notebook have a look at that 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 The output of trained Nueral Network is that it shows an number from 0-42 which basically means that 0 means some thing 1 means something and so on.Neueral Network may have taken various characterstic for this purpose ( basic purposes of the CNN like pattern matching and MaxPooling etc)
