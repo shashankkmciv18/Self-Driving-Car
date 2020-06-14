@@ -18,6 +18,7 @@ The goals / steps of this project are the following:
 
 
 [//]: # (Image References)
+[image1]: ./images/data.png "plotting "
 
 [image4]: ./images/im1.png "Traffic Sign 1"
 [image5]: ./images/im2.png "Traffic Sign 2"
@@ -33,20 +34,23 @@ The goals / steps of this project are the following:
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+You're reading it! and here is a link to my [project code](https://github.com/shashankkmciv18/Self-Driving-Car/blob/master/P3%20Traffic%20Sign%20Classifier/codes/main.ipynb)
+
+
+Here is link for hyper parametertuning code[Tuner Code](https://github.com/shashankkmciv18/Self-Driving-Car/blob/master/P3%20Traffic%20Sign%20Classifier/codes/p1.ipynb)
 
 ### Data Set Summary & Exploration
 
 #### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
 
-I used the pandas library to calculate summary statistics of the traffic
+I used the numpy and other library to calculate summary statistics of the traffic
 signs data set:
 
-* The size of training set is ?
-* The size of the validation set is ?
-* The size of test set is ?
-* The shape of a traffic sign image is ?
-* The number of unique classes/labels in the data set is ?
+* The size of training set is  12630 and have images of size (32,32,3) 
+* The size of the validation set is  4410 and have images of size (32,32,3)
+* The size of test set is  34799 and have images of size (32,32,3)
+* The shape of a traffic sign image (32,32,3)
+* The number of unique classes/labels 43
 
 #### 2. Include an exploratory visualization of the dataset.
 
@@ -60,7 +64,6 @@ Here is an exploratory visualization of the data set. It is a distplot  showing 
 
 As the first step i have normalised the data , i have choosed minmax scalar over standarisation beacuse as per my experiences it works better in CNNN than that of standarisation.</br>
 After that i have applied an CNN as rest of feature extraction will be carrieed inside this CNN only, with help of Various filters.
-![alt text][image2]
 
 
 
