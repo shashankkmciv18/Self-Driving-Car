@@ -24,7 +24,7 @@ The goals / steps of this project are the following:
 [image6]: ./images/im3.png "Traffic Sign 3"
 [image7]: ./images/im4.png "Traffic Sign 4"
 [image8]: ./images/im5.png "Traffic Sign 5"
-
+[image9]: ./images/123.png "Model "
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 
@@ -196,4 +196,5 @@ For the rest image the model is itself present inside the Last section of main N
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 The output of trained Nueral Network is that it shows an number from 0-42 which basically means that 0 means some thing 1 means something and so on.Neueral Network may have taken various characterstic for this purpose ( basic purposes of the CNN like pattern matching and MaxPooling etc)
+![alt text][image9] 
 
