@@ -173,7 +173,7 @@ Here are the results of the prediction:
 |:---------------------:|:---------------------------------------------:| 
 | 30KM/H     		|30KM/h   									| 
 | Turn Right ahead     			|Turn Right ahead 										|
-|60 or 80Km/h				|80Km/h|
+| 80Km/h				|80Km/h|
 | Turn Right ahead     			|Turn Right ahead 										|
 |Road work		|Road Work      							|
 
