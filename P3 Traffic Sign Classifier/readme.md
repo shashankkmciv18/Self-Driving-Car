@@ -186,10 +186,9 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 1.0        			|30Km/h   									| 
-|9.938535e-14  |Speed limit (70km/h)|,
-
+|9.938535e-14  |Speed limit (70km/h)|
 | 2.28e-14				| Speed Limit(20Km/h)|
-| 7.39e-15      			|Speed Limit(50Km/h)		 				|
+| 7.39e-15      			|Speed Limit(50Km/h)|
 | 2.3e-17				    |Traffic Signal 							|
 
 
