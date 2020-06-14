@@ -195,7 +195,8 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 | 2.3e-17				    |Traffic Signal 							|
 
 
-For the rest image the model is itself present inside the Last section of main Notebook have a look at that 
+For the rest image the model is itself present inside the Last section of main
+[Notebook](https://github.com/shashankkmciv18/Self-Driving-Car/blob/master/P3%20Traffic%20Sign%20Classifier/codes/main.ipynb) have a look at that 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 The output of trained Nueral Network is that it shows an number from 0-42 which basically means that 0 means some thing 1 means something and so on.Neueral Network may have taken various characterstic for this purpose ( basic purposes of the CNN like pattern matching and MaxPooling etc)
