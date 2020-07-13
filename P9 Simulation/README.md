@@ -51,8 +51,12 @@ Then Used YOLO and LeNet(recommended) for the same, which gave me pretty good re
 [image1]: ./imgs/rl1.jpg "Model Detecting the Red lights"
 [image2]: ./imgs/yl1.jpg "Model Detection the Yellow lights"
 [image3]: ./imgs/gl1.jpg "Model Detection the Green lights"
-[image4]: ./imgs/dbw_node_angular_z_vel_steering.jpg "Model Detection the Green lights"
+[image4]: ./imgs/dbw_node_angular_z_vel_steering.jpg "Car"
 
+
+[image5]: ./imgs/frl1 "Failed to detect red light"
+
+[image6]: ./imgs/fyl1.jpg "Car"
 
 ![alt text][image1]
 
@@ -62,6 +66,12 @@ Then Used YOLO and LeNet(recommended) for the same, which gave me pretty good re
 
 ![alt text][image4]
 
+## Failure to detect
+
+![alt text][image5]
+
+
+![alt text][image6]
 
 
 
