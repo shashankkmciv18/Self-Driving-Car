@@ -159,7 +159,7 @@ With `num_particles = 100`, the `x`, `y`, and `yaw` error resulted as follows:
 
 In the cases of both `num_particles` settings, the program output **"Success! Your particle filter passed!"**
 
-Here's a [link to my video result](./video/p1.mp4)
+Here's a [link to my video while action](./video/p1.mp4)
 
 ### Performance
 
