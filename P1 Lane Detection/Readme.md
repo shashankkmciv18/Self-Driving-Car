@@ -23,7 +23,7 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+My pipeline consisted of 7 steps.  
 1.Grayscaled the image </br>
 2.Apply Canny Egde</br>
 3.Apply Gaussian Blur</br>
@@ -31,7 +31,7 @@ My pipeline consisted of 5 steps. First, I converted the images to grayscale, th
 5.Apply hough lines </br>
 6.Find best fit lines </br>
 7.Draw lines </br>
-
+Have a look in code itself please there i have explained everythnig with detail
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
@@ -51,6 +51,4 @@ Here's a [link to my Soldigyellowleft video result](./test_videos_output/solidYe
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+Using Bird eye view so that an better picture will come
