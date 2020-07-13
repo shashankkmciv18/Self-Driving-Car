@@ -39,8 +39,8 @@ One potential shortcoming would be what would happen when ...
 
 Another shortcoming could be ...
 
-Here's a [link to my video result](./test_video_output/solidWhiteRight.mp4)
-Here's a [link to my video result](./test_video_output/solidYellowLeft.mp4)
+Here's a [link to my video result](./test_videos_output/solidWhiteRight.mp4)
+Here's a [link to my video result](./test_videos_output/solidYellowLeft.mp4)
 
 ### 3. Suggest possible improvements to your pipeline
 
