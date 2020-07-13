@@ -1,0 +1,2 @@
+2019-12-01 21:59:48,146 - INFO - signal_shutdown [atexit]
+2019-12-01 21:59:59,908 - INFO - signal_shutdown [atexit]

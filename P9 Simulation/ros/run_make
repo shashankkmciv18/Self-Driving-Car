@@ -1,0 +1,1 @@
+catkin_make -DCMAKE_BUILD_TYPE=Release -DDARKNET_PATH=../src/darknet_ros/darknet/

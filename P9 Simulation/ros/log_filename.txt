@@ -1,0 +1,616 @@
+2019-12-03 15:53:30,174 - DEBUG - connect[/current_velocity]: calling requestTopic(/waypoint_updater, /current_velocity, [['TCPROS']])
+2019-12-03 15:53:30,174 - INFO - topic[/traffic_waypoint] adding connection to [http://192.168.188.252:42967/], count 0
+2019-12-03 15:53:30,176 - DEBUG - [/traffic_waypoint]: writing header
+2019-12-03 15:53:30,177 - DEBUG - receive_loop for [/traffic_waypoint]
+2019-12-03 15:53:30,177 - DEBUG - connect[/current_velocity]: requestTopic returned protocol list ['TCPROS', '192.168.188.252', 41639]
+2019-12-03 15:53:30,178 - INFO - topic[/current_velocity] adding connection to [http://192.168.188.252:33457/], count 0
+2019-12-03 15:53:30,178 - DEBUG - [/current_velocity]: writing header
+2019-12-03 15:53:30,179 - DEBUG - receive_loop for [/current_velocity]
+2019-12-03 15:53:30,206 - DEBUG - requestTopic('/styx_server', '/final_waypoints', [['TCPROS']])
+2019-12-03 15:53:30,206 - DEBUG - requestTopic[/final_waypoints]: choosing protocol TCPROS
+2019-12-03 15:53:30,206 - DEBUG - requestTopic('/styx_server', '/final_waypoints', [['TCPROS']]) returns (1, 'ready on 192.168.188.252:32829', ['TCPROS', '192.168.188.252', 32829])
+2019-12-03 15:53:30,209 - DEBUG - [/final_waypoints]: writing header
+2019-12-03 15:53:30,209 - INFO - topic[/final_waypoints] adding connection to [/styx_server], count 0
+2019-12-03 15:53:30,287 - DEBUG - requestTopic('/rosout', '/rosout', [['TCPROS']])
+2019-12-03 15:53:30,288 - DEBUG - requestTopic('/pure_pursuit', '/final_waypoints', [['TCPROS']])
+2019-12-03 15:53:30,288 - DEBUG - requestTopic[/rosout]: choosing protocol TCPROS
+2019-12-03 15:53:30,288 - DEBUG - requestTopic[/final_waypoints]: choosing protocol TCPROS
+2019-12-03 15:53:30,289 - DEBUG - requestTopic('/rosout', '/rosout', [['TCPROS']]) returns (1, 'ready on 192.168.188.252:32829', ['TCPROS', '192.168.188.252', 32829])
+2019-12-03 15:53:30,289 - DEBUG - requestTopic('/pure_pursuit', '/final_waypoints', [['TCPROS']]) returns (1, 'ready on 192.168.188.252:32829', ['TCPROS', '192.168.188.252', 32829])
+2019-12-03 15:53:30,398 - DEBUG - [/rosout]: writing header
+2019-12-03 15:53:30,471 - INFO - topic[/rosout] adding connection to [/rosout], count 0
+2019-12-03 15:53:30,478 - DEBUG - [/final_waypoints]: writing header
+2019-12-03 15:53:30,504 - INFO - topic[/final_waypoints] adding connection to [/pure_pursuit], count 1
+2019-12-03 15:53:31,178 - INFO - Publish lane: 200
+2019-12-03 15:53:31,678 - INFO - Publish lane: 200
+2019-12-03 15:53:32,178 - INFO - Publish lane: 200
+2019-12-03 15:53:32,678 - INFO - Publish lane: 200
+2019-12-03 15:53:33,178 - INFO - Publish lane: 200
+2019-12-03 15:53:33,678 - INFO - Publish lane: 200
+2019-12-03 15:53:34,179 - INFO - Publish lane: 200
+2019-12-03 15:53:34,677 - INFO - Publish lane: 200
+2019-12-03 15:53:35,178 - INFO - Publish lane: 200
+2019-12-03 15:53:35,678 - INFO - Publish lane: 200
+2019-12-03 15:53:36,179 - INFO - Publish lane: 200
+2019-12-03 15:53:36,678 - INFO - Publish lane: 200
+2019-12-03 15:53:37,178 - INFO - Publish lane: 200
+2019-12-03 15:53:37,679 - INFO - Publish lane: 200
+2019-12-03 15:53:38,178 - INFO - Publish lane: 200
+2019-12-03 15:53:38,678 - INFO - Publish lane: 200
+2019-12-03 15:53:39,178 - INFO - Publish lane: 200
+2019-12-03 15:53:39,678 - INFO - Publish lane: 200
+2019-12-03 15:53:40,178 - INFO - Publish lane: 200
+2019-12-03 15:53:40,678 - INFO - Publish lane: 200
+2019-12-03 15:53:41,178 - INFO - Publish lane: 200
+2019-12-03 15:53:41,678 - INFO - Publish lane: 200
+2019-12-03 15:53:42,177 - INFO - Publish lane: 200
+2019-12-03 15:53:42,678 - INFO - Publish lane: 200
+2019-12-03 15:53:43,178 - INFO - Publish lane: 200
+2019-12-03 15:53:43,678 - INFO - Publish lane: 200
+2019-12-03 15:53:44,178 - INFO - Publish lane: 200
+2019-12-03 15:53:44,678 - INFO - Publish lane: 200
+2019-12-03 15:53:45,178 - INFO - Publish lane: 200
+2019-12-03 15:53:45,678 - INFO - Publish lane: 200
+2019-12-03 15:53:46,178 - INFO - Publish lane: 200
+2019-12-03 15:53:46,678 - INFO - Publish lane: 200
+2019-12-03 15:53:47,178 - INFO - Publish lane: 200
+2019-12-03 15:53:47,678 - INFO - Publish lane: 200
+2019-12-03 15:53:48,178 - INFO - Publish lane: 200
+2019-12-03 15:53:48,678 - INFO - Publish lane: 200
+2019-12-03 15:53:49,178 - INFO - Publish lane: 200
+2019-12-03 15:53:49,678 - INFO - Publish lane: 200
+2019-12-03 15:53:50,178 - INFO - Publish lane: 200
+2019-12-03 15:53:50,678 - INFO - Publish lane: 200
+2019-12-03 15:53:51,178 - INFO - Publish lane: 200
+2019-12-03 15:53:51,678 - INFO - Publish lane: 200
+2019-12-03 15:53:52,179 - INFO - Publish lane: 200
+2019-12-03 15:53:52,679 - INFO - Publish lane: 200
+2019-12-03 15:53:53,179 - INFO - Publish lane: 200
+2019-12-03 15:53:53,678 - INFO - Publish lane: 200
+2019-12-03 15:53:54,179 - INFO - Publish lane: 200
+2019-12-03 15:53:54,678 - INFO - Publish lane: 200
+2019-12-03 15:53:55,177 - INFO - Publish lane: 200
+2019-12-03 15:53:55,678 - INFO - Publish lane: 200
+2019-12-03 15:53:56,179 - INFO - Publish lane: 200
+2019-12-03 15:53:56,678 - INFO - Publish lane: 200
+2019-12-03 15:53:57,178 - INFO - Publish lane: 200
+2019-12-03 15:53:57,678 - INFO - Publish lane: 200
+2019-12-03 15:53:58,178 - INFO - Publish lane: 200
+2019-12-03 15:53:58,678 - INFO - Publish lane: 200
+2019-12-03 15:53:59,178 - INFO - Publish lane: 200
+2019-12-03 15:53:59,678 - INFO - Publish lane: 200
+2019-12-03 15:54:00,178 - INFO - Publish lane: 200
+2019-12-03 15:54:00,678 - INFO - Publish lane: 200
+2019-12-03 15:54:01,178 - INFO - Publish lane: 200
+2019-12-03 15:54:01,678 - INFO - Publish lane: 200
+2019-12-03 15:54:02,178 - INFO - Publish lane: 200
+2019-12-03 15:54:02,678 - INFO - Publish lane: 200
+2019-12-03 15:54:03,178 - INFO - Publish lane: 200
+2019-12-03 15:54:03,678 - INFO - Publish lane: 200
+2019-12-03 15:54:04,178 - INFO - Publish lane: 200
+2019-12-03 15:54:04,678 - INFO - Publish lane: 200
+2019-12-03 15:54:05,178 - INFO - Publish lane: 200
+2019-12-03 15:54:05,678 - INFO - Publish lane: 200
+2019-12-03 15:54:06,178 - INFO - Publish lane: 200
+2019-12-03 15:54:06,678 - INFO - Publish lane: 200
+2019-12-03 15:54:07,178 - INFO - Publish lane: 200
+2019-12-03 15:54:07,678 - INFO - Publish lane: 200
+2019-12-03 15:54:08,178 - INFO - Publish lane: 200
+2019-12-03 15:54:08,678 - INFO - Publish lane: 200
+2019-12-03 15:54:09,178 - INFO - Publish lane: 200
+2019-12-03 15:54:09,678 - INFO - Publish lane: 200
+2019-12-03 15:54:10,178 - INFO - Publish lane: 200
+2019-12-03 15:54:10,678 - INFO - Publish lane: 200
+2019-12-03 15:54:11,178 - INFO - Publish lane: 200
+2019-12-03 15:54:11,678 - INFO - Publish lane: 200
+2019-12-03 15:54:12,178 - INFO - Publish lane: 200
+2019-12-03 15:54:12,678 - INFO - Publish lane: 200
+2019-12-03 15:54:13,178 - INFO - Publish lane: 200
+2019-12-03 15:54:13,678 - INFO - Publish lane: 200
+2019-12-03 15:54:14,178 - INFO - Publish lane: 200
+2019-12-03 15:54:14,678 - INFO - Publish lane: 200
+2019-12-03 15:54:15,178 - INFO - Publish lane: 200
+2019-12-03 15:54:15,678 - INFO - Publish lane: 200
+2019-12-03 15:54:16,178 - INFO - Publish lane: 200
+2019-12-03 15:54:16,678 - INFO - Publish lane: 200
+2019-12-03 15:54:17,178 - INFO - Publish lane: 200
+2019-12-03 15:54:17,679 - INFO - Publish lane: 200
+2019-12-03 15:54:18,179 - INFO - Publish lane: 200
+2019-12-03 15:54:18,679 - INFO - Publish lane: 200
+2019-12-03 15:54:19,178 - INFO - Publish lane: 200
+2019-12-03 15:54:19,678 - INFO - Publish lane: 200
+2019-12-03 15:54:20,179 - INFO - Publish lane: 200
+2019-12-03 15:54:20,678 - INFO - Publish lane: 200
+2019-12-03 15:54:21,179 - INFO - Publish lane: 200
+2019-12-03 15:54:21,678 - INFO - Publish lane: 200
+2019-12-03 15:54:22,179 - INFO - Publish lane: 200
+2019-12-03 15:54:22,679 - INFO - Publish lane: 200
+2019-12-03 15:54:23,179 - INFO - Publish lane: 200
+2019-12-03 15:54:23,679 - INFO - Publish lane: 200
+2019-12-03 15:54:24,179 - INFO - Publish lane: 200
+2019-12-03 15:54:24,678 - INFO - Publish lane: 200
+2019-12-03 15:54:25,179 - INFO - Publish lane: 200
+2019-12-03 15:54:25,679 - INFO - Publish lane: 200
+2019-12-03 15:54:26,179 - INFO - Publish lane: 200
+2019-12-03 15:54:26,678 - INFO - Publish lane: 200
+2019-12-03 15:54:27,178 - INFO - Publish lane: 200
+2019-12-03 15:54:27,679 - INFO - Publish lane: 200
+2019-12-03 15:54:28,178 - INFO - Publish lane: 200
+2019-12-03 15:54:28,678 - INFO - Publish lane: 200
+2019-12-03 15:54:29,178 - INFO - Publish lane: 200
+2019-12-03 15:54:29,678 - INFO - Publish lane: 200
+2019-12-03 15:54:30,179 - INFO - Publish lane: 200
+2019-12-03 15:54:30,678 - INFO - Publish lane: 200
+2019-12-03 15:54:31,179 - INFO - Publish lane: 200
+2019-12-03 15:54:31,679 - INFO - Publish lane: 200
+2019-12-03 15:54:32,179 - INFO - Publish lane: 200
+2019-12-03 15:54:32,678 - INFO - Publish lane: 200
+2019-12-03 15:54:33,178 - INFO - Publish lane: 200
+2019-12-03 15:54:33,678 - INFO - Publish lane: 200
+2019-12-03 15:54:34,178 - INFO - Publish lane: 200
+2019-12-03 15:54:34,678 - INFO - Publish lane: 200
+2019-12-03 15:54:35,178 - INFO - Publish lane: 200
+2019-12-03 15:54:35,678 - INFO - Publish lane: 200
+2019-12-03 15:54:36,178 - INFO - Publish lane: 200
+2019-12-03 15:54:36,679 - INFO - Publish lane: 200
+2019-12-03 15:54:37,179 - INFO - Publish lane: 200
+2019-12-03 15:54:37,390 - DEBUG - [/current_velocity]: writing header
+2019-12-03 15:54:37,391 - ERROR - Unable to initiate TCP/IP socket to 192.168.188.252:41639 (http://192.168.188.252:33457/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+2019-12-03 15:54:37,392 - DEBUG - [/current_pose]: writing header
+2019-12-03 15:54:37,394 - ERROR - Unable to initiate TCP/IP socket to 192.168.188.252:41639 (http://192.168.188.252:33457/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+2019-12-03 15:54:37,397 - DEBUG - [/base_waypoints]: writing header
+2019-12-03 15:54:37,398 - ERROR - Unable to initiate TCP/IP socket to 192.168.188.252:40291 (http://192.168.188.252:34875/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+2019-12-03 15:54:37,400 - DEBUG - publisherUpdate('/master', '/base_waypoints', [])
+2019-12-03 15:54:37,400 - DEBUG - publisherUpdate('/master', '/base_waypoints', []) returns (1, '', 0)
+2019-12-03 15:54:37,411 - DEBUG - publisherUpdate('/master', '/traffic_waypoint', [])
+2019-12-03 15:54:37,412 - DEBUG - publisherUpdate('/master', '/traffic_waypoint', []) returns (1, '', 0)
+2019-12-03 15:54:37,412 - DEBUG - [/traffic_waypoint]: writing header
+2019-12-03 15:54:37,413 - ERROR - Unable to initiate TCP/IP socket to 192.168.188.252:40081 (http://192.168.188.252:42967/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+2019-12-03 15:54:37,678 - INFO - Publish lane: 200
+2019-12-03 15:54:37,717 - DEBUG - removing connection to /styx_server, connection error detected
+2019-12-03 15:54:37,717 - INFO - topic[/final_waypoints] removing connection to /styx_server
+2019-12-03 15:54:37,717 - DEBUG - removing connection to /pure_pursuit, connection error detected
+2019-12-03 15:54:37,718 - INFO - topic[/final_waypoints] removing connection to /pure_pursuit
+2019-12-03 15:54:38,178 - INFO - Publish lane: 200
+2019-12-03 15:54:38,393 - WARNING - Unknown error initiating TCP/IP socket to 192.168.188.252:41639 (http://192.168.188.252:33457/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+2019-12-03 15:54:38,394 - INFO - topic[/current_velocity] removing connection to http://192.168.188.252:33457/
+2019-12-03 15:54:38,395 - WARNING - Unknown error initiating TCP/IP socket to 192.168.188.252:41639 (http://192.168.188.252:33457/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+2019-12-03 15:54:38,396 - INFO - topic[/current_pose] removing connection to http://192.168.188.252:33457/
+2019-12-03 15:54:38,399 - WARNING - Unknown error initiating TCP/IP socket to 192.168.188.252:40291 (http://192.168.188.252:34875/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+2019-12-03 15:54:38,400 - INFO - topic[/base_waypoints] removing connection to http://192.168.188.252:34875/
+2019-12-03 15:54:38,414 - WARNING - Unknown error initiating TCP/IP socket to 192.168.188.252:40081 (http://192.168.188.252:42967/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+2019-12-03 15:54:38,415 - INFO - topic[/traffic_waypoint] removing connection to http://192.168.188.252:42967/
+2019-12-03 15:54:38,679 - INFO - Publish lane: 200
+2019-12-03 15:54:38,719 - DEBUG - removing connection to /rosout, connection error detected
+2019-12-03 15:54:38,719 - INFO - topic[/rosout] removing connection to /rosout
+2019-12-03 15:54:39,179 - INFO - Publish lane: 200
+2019-12-03 15:54:39,678 - INFO - Publish lane: 200
+2019-12-03 15:54:40,179 - INFO - Publish lane: 200
+2019-12-03 15:54:40,396 - DEBUG - receive_loop[/current_velocity]: done condition met, exited loop
+2019-12-03 15:54:40,398 - DEBUG - receive_loop[/current_pose]: done condition met, exited loop
+2019-12-03 15:54:40,402 - DEBUG - receive_loop[/base_waypoints]: done condition met, exited loop
+2019-12-03 15:54:40,417 - DEBUG - receive_loop[/traffic_waypoint]: done condition met, exited loop
+2019-12-03 15:54:40,679 - INFO - Publish lane: 200
+2019-12-03 15:54:41,180 - INFO - Publish lane: 200
+2019-12-03 15:54:41,678 - INFO - Publish lane: 200
+2019-12-03 15:54:42,179 - INFO - Publish lane: 200
+2019-12-03 15:54:42,680 - INFO - Publish lane: 200
+2019-12-03 15:54:43,180 - INFO - Publish lane: 200
+2019-12-03 15:54:43,679 - INFO - Publish lane: 200
+2019-12-03 15:54:44,179 - INFO - Publish lane: 200
+2019-12-03 15:54:44,308 - INFO - signal_shutdown [signal-2]
+2019-12-03 15:54:44,309 - DEBUG - registration cleanup starting
+2019-12-03 15:54:44,309 - DEBUG - unregisterSubscriber [/current_velocity]
+2019-12-03 15:54:44,309 - DEBUG - unregisterSubscriber [/traffic_waypoint]
+2019-12-03 15:54:44,310 - DEBUG - unregisterSubscriber [/base_waypoints]
+2019-12-03 15:54:44,310 - DEBUG - unregisterSubscriber [/current_pose]
+2019-12-03 15:54:44,310 - DEBUG - unregisterPublisher [/final_waypoints]
+2019-12-03 15:54:44,310 - DEBUG - unregisterPublisher [/rosout]
+2019-12-03 15:54:44,311 - DEBUG - unregisterService [/waypoint_updater/set_logger_level]
+2019-12-03 15:54:44,311 - DEBUG - unregisterService [/waypoint_updater/get_loggers]
+2019-12-03 15:54:44,312 - WARNING - cannot unregister with master due to network issues
+2019-12-03 15:54:44,313 - DEBUG - registration cleanup: master calls complete
+2019-12-03 15:54:44,313 - INFO - signal-2
+2019-12-03 15:54:44,446 - INFO - Shutdown signal received
+2019-12-03 15:54:44,468 - INFO - signal_shutdown [atexit]
+2019-12-03 15:55:46,120 - DEBUG - connect[/traffic_waypoint]: requestTopic returned protocol list ['TCPROS', '192.168.188.252', 43233]
+2019-12-03 15:55:46,121 - DEBUG - connect[/current_velocity]: calling requestTopic(/waypoint_updater, /current_velocity, [['TCPROS']])
+2019-12-03 15:55:46,121 - INFO - topic[/traffic_waypoint] adding connection to [http://192.168.188.252:37603/], count 0
+2019-12-03 15:55:46,125 - DEBUG - connect[/current_velocity]: requestTopic returned protocol list ['TCPROS', '192.168.188.252', 35693]
+2019-12-03 15:55:46,125 - INFO - topic[/current_velocity] adding connection to [http://192.168.188.252:33981/], count 0
+2019-12-03 15:55:46,126 - DEBUG - [/traffic_waypoint]: writing header
+2019-12-03 15:55:46,126 - DEBUG - [/current_velocity]: writing header
+2019-12-03 15:55:46,127 - DEBUG - receive_loop for [/traffic_waypoint]
+2019-12-03 15:55:46,127 - DEBUG - receive_loop for [/current_velocity]
+2019-12-03 15:55:46,175 - DEBUG - requestTopic('/styx_server', '/final_waypoints', [['TCPROS']])
+2019-12-03 15:55:46,175 - DEBUG - requestTopic[/final_waypoints]: choosing protocol TCPROS
+2019-12-03 15:55:46,176 - DEBUG - requestTopic('/styx_server', '/final_waypoints', [['TCPROS']]) returns (1, 'ready on 192.168.188.252:33553', ['TCPROS', '192.168.188.252', 33553])
+2019-12-03 15:55:46,178 - DEBUG - [/final_waypoints]: writing header
+2019-12-03 15:55:46,179 - INFO - topic[/final_waypoints] adding connection to [/styx_server], count 0
+2019-12-03 15:55:46,254 - DEBUG - requestTopic('/rosout', '/rosout', [['TCPROS']])
+2019-12-03 15:55:46,254 - DEBUG - requestTopic('/pure_pursuit', '/final_waypoints', [['TCPROS']])
+2019-12-03 15:55:46,282 - DEBUG - requestTopic[/rosout]: choosing protocol TCPROS
+2019-12-03 15:55:46,289 - DEBUG - requestTopic[/final_waypoints]: choosing protocol TCPROS
+2019-12-03 15:55:46,292 - DEBUG - requestTopic('/rosout', '/rosout', [['TCPROS']]) returns (1, 'ready on 192.168.188.252:33553', ['TCPROS', '192.168.188.252', 33553])
+2019-12-03 15:55:46,295 - DEBUG - requestTopic('/pure_pursuit', '/final_waypoints', [['TCPROS']]) returns (1, 'ready on 192.168.188.252:33553', ['TCPROS', '192.168.188.252', 33553])
+2019-12-03 15:55:46,406 - DEBUG - [/rosout]: writing header
+2019-12-03 15:55:46,417 - INFO - topic[/rosout] adding connection to [/rosout], count 0
+2019-12-03 15:55:46,427 - DEBUG - [/final_waypoints]: writing header
+2019-12-03 15:55:46,433 - INFO - topic[/final_waypoints] adding connection to [/pure_pursuit], count 1
+2019-12-03 15:56:44,736 - DEBUG - [/current_velocity]: writing header
+2019-12-03 15:56:44,737 - ERROR - Unable to initiate TCP/IP socket to 192.168.188.252:35693 (http://192.168.188.252:33981/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+2019-12-03 15:56:44,739 - DEBUG - [/current_pose]: writing header
+2019-12-03 15:56:44,740 - ERROR - Unable to initiate TCP/IP socket to 192.168.188.252:35693 (http://192.168.188.252:33981/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+2019-12-03 15:56:44,743 - DEBUG - [/final_waypoints]: writing header
+2019-12-03 15:56:44,744 - INFO - topic[/final_waypoints] adding connection to [/styx_server], count 2
+2019-12-03 15:56:44,744 - INFO - topic[/final_waypoints] removing connection to /styx_server
+2019-12-03 15:56:44,751 - DEBUG - publisherUpdate('/master', '/current_velocity', [])
+2019-12-03 15:56:44,751 - DEBUG - publisherUpdate('/master', '/current_velocity', []) returns (1, '', 0)
+2019-12-03 15:56:44,757 - DEBUG - publisherUpdate('/master', '/current_pose', [])
+2019-12-03 15:56:44,757 - DEBUG - publisherUpdate('/master', '/current_pose', []) returns (1, '', 0)
+2019-12-03 15:56:45,205 - DEBUG - removing connection to /styx_server, connection error detected
+2019-12-03 15:56:45,205 - INFO - topic[/final_waypoints] removing connection to /styx_server
+2019-12-03 15:56:45,739 - WARNING - Unknown error initiating TCP/IP socket to 192.168.188.252:35693 (http://192.168.188.252:33981/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+2019-12-03 15:56:45,740 - INFO - topic[/current_velocity] removing connection to http://192.168.188.252:33981/
+2019-12-03 15:56:45,741 - WARNING - Unknown error initiating TCP/IP socket to 192.168.188.252:35693 (http://192.168.188.252:33981/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+2019-12-03 15:56:45,742 - INFO - topic[/current_pose] removing connection to http://192.168.188.252:33981/
+2019-12-03 15:56:47,742 - DEBUG - receive_loop[/current_velocity]: done condition met, exited loop
+2019-12-03 15:56:47,744 - DEBUG - receive_loop[/current_pose]: done condition met, exited loop
+2019-12-03 15:57:55,216 - DEBUG - [/base_waypoints]: writing header
+2019-12-03 15:57:55,217 - ERROR - Unable to initiate TCP/IP socket to 192.168.188.252:39883 (http://192.168.188.252:44161/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+2019-12-03 15:57:55,220 - DEBUG - [/traffic_waypoint]: writing header
+2019-12-03 15:57:55,221 - ERROR - Unable to initiate TCP/IP socket to 192.168.188.252:43233 (http://192.168.188.252:37603/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+2019-12-03 15:57:55,280 - DEBUG - publisherUpdate('/master', '/base_waypoints', [])
+2019-12-03 15:57:55,281 - DEBUG - publisherUpdate('/master', '/base_waypoints', []) returns (1, '', 0)
+2019-12-03 15:57:55,288 - DEBUG - publisherUpdate('/master', '/traffic_waypoint', [])
+2019-12-03 15:57:55,288 - DEBUG - publisherUpdate('/master', '/traffic_waypoint', []) returns (1, '', 0)
+2019-12-03 15:57:55,751 - DEBUG - removing connection to /pure_pursuit, connection error detected
+2019-12-03 15:57:55,752 - INFO - topic[/final_waypoints] removing connection to /pure_pursuit
+2019-12-03 15:57:56,218 - WARNING - Unknown error initiating TCP/IP socket to 192.168.188.252:39883 (http://192.168.188.252:44161/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+2019-12-03 15:57:56,218 - INFO - topic[/base_waypoints] removing connection to http://192.168.188.252:44161/
+2019-12-03 15:57:56,222 - WARNING - Unknown error initiating TCP/IP socket to 192.168.188.252:43233 (http://192.168.188.252:37603/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+2019-12-03 15:57:56,223 - INFO - topic[/traffic_waypoint] removing connection to http://192.168.188.252:37603/
+2019-12-03 15:57:56,252 - DEBUG - removing connection to /rosout, connection error detected
+2019-12-03 15:57:56,253 - INFO - topic[/rosout] removing connection to /rosout
+2019-12-03 15:57:58,221 - DEBUG - receive_loop[/base_waypoints]: done condition met, exited loop
+2019-12-03 15:57:58,225 - DEBUG - receive_loop[/traffic_waypoint]: done condition met, exited loop
+2019-12-03 15:58:03,937 - INFO - signal_shutdown [signal-2]
+2019-12-03 15:58:03,938 - DEBUG - registration cleanup starting
+2019-12-03 15:58:03,938 - DEBUG - unregisterSubscriber [/current_velocity]
+2019-12-03 15:58:03,939 - DEBUG - unregisterSubscriber [/traffic_waypoint]
+2019-12-03 15:58:03,939 - DEBUG - unregisterSubscriber [/base_waypoints]
+2019-12-03 15:58:03,939 - DEBUG - unregisterSubscriber [/current_pose]
+2019-12-03 15:58:03,939 - DEBUG - unregisterPublisher [/final_waypoints]
+2019-12-03 15:58:03,940 - DEBUG - unregisterPublisher [/rosout]
+2019-12-03 15:58:03,940 - DEBUG - unregisterService [/waypoint_updater/set_logger_level]
+2019-12-03 15:58:03,940 - DEBUG - unregisterService [/waypoint_updater/get_loggers]
+2019-12-03 15:58:03,941 - WARNING - cannot unregister with master due to network issues
+2019-12-03 15:58:03,941 - DEBUG - registration cleanup: master calls complete
+2019-12-03 15:58:03,942 - INFO - signal-2
+2019-12-03 15:58:04,106 - INFO - Shutdown signal received
+2019-12-03 15:58:04,127 - INFO - signal_shutdown [atexit]
+2019-12-03 15:59:35,304 - DEBUG - [/traffic_waypoint]: writing header
+2019-12-03 15:59:35,304 - DEBUG - receive_loop for [/traffic_waypoint]
+2019-12-03 15:59:35,310 - DEBUG - connect[/base_waypoints]: requestTopic returned protocol list ['TCPROS', '192.168.188.252', 37459]
+2019-12-03 15:59:35,310 - INFO - topic[/base_waypoints] adding connection to [http://192.168.188.252:44683/], count 0
+2019-12-03 15:59:35,311 - DEBUG - [/base_waypoints]: writing header
+2019-12-03 15:59:35,326 - DEBUG - receive_loop for [/base_waypoints]
+2019-12-03 15:59:35,427 - DEBUG - requestTopic('/rosout', '/rosout', [['TCPROS']])
+2019-12-03 15:59:35,428 - DEBUG - requestTopic[/rosout]: choosing protocol TCPROS
+2019-12-03 15:59:35,428 - DEBUG - requestTopic('/rosout', '/rosout', [['TCPROS']]) returns (1, 'ready on 192.168.188.252:40075', ['TCPROS', '192.168.188.252', 40075])
+2019-12-03 15:59:35,429 - DEBUG - requestTopic('/pure_pursuit', '/final_waypoints', [['TCPROS']])
+2019-12-03 15:59:35,430 - DEBUG - requestTopic[/final_waypoints]: choosing protocol TCPROS
+2019-12-03 15:59:35,430 - DEBUG - requestTopic('/pure_pursuit', '/final_waypoints', [['TCPROS']]) returns (1, 'ready on 192.168.188.252:40075', ['TCPROS', '192.168.188.252', 40075])
+2019-12-03 15:59:35,530 - DEBUG - [/rosout]: writing header
+2019-12-03 15:59:35,532 - INFO - topic[/rosout] adding connection to [/rosout], count 0
+2019-12-03 15:59:35,533 - DEBUG - [/final_waypoints]: writing header
+2019-12-03 15:59:35,534 - INFO - topic[/final_waypoints] adding connection to [/pure_pursuit], count 0
+2019-12-03 15:59:35,616 - DEBUG - requestTopic('/styx_server', '/final_waypoints', [['TCPROS']])
+2019-12-03 15:59:35,616 - DEBUG - requestTopic[/final_waypoints]: choosing protocol TCPROS
+2019-12-03 15:59:35,617 - DEBUG - requestTopic('/styx_server', '/final_waypoints', [['TCPROS']]) returns (1, 'ready on 192.168.188.252:40075', ['TCPROS', '192.168.188.252', 40075])
+2019-12-03 15:59:35,630 - DEBUG - [/final_waypoints]: writing header
+2019-12-03 15:59:35,631 - INFO - topic[/final_waypoints] adding connection to [/styx_server], count 1
+2019-12-03 15:59:35,634 - DEBUG - publisherUpdate('/master', '/current_pose', ['http://192.168.188.252:34867/'])
+2019-12-03 15:59:35,635 - DEBUG - publisherUpdate('/master', '/current_pose', ['http://192.168.188.252:34867/']) returns (1, '', 0)
+2019-12-03 15:59:35,639 - DEBUG - publisherUpdate('/master', '/current_velocity', ['http://192.168.188.252:34867/'])
+2019-12-03 15:59:35,639 - DEBUG - publisherUpdate('/master', '/current_velocity', ['http://192.168.188.252:34867/']) returns (1, '', 0)
+2019-12-03 15:59:35,669 - DEBUG - connect[/current_velocity]: calling requestTopic(/waypoint_updater, /current_velocity, [['TCPROS']])
+2019-12-03 15:59:35,670 - DEBUG - connect[/current_pose]: calling requestTopic(/waypoint_updater, /current_pose, [['TCPROS']])
+2019-12-03 15:59:35,673 - DEBUG - connect[/current_velocity]: requestTopic returned protocol list ['TCPROS', '192.168.188.252', 46455]
+2019-12-03 15:59:35,674 - INFO - topic[/current_velocity] adding connection to [http://192.168.188.252:34867/], count 0
+2019-12-03 15:59:35,674 - DEBUG - [/current_velocity]: writing header
+2019-12-03 15:59:35,676 - DEBUG - connect[/current_pose]: requestTopic returned protocol list ['TCPROS', '192.168.188.252', 46455]
+2019-12-03 15:59:35,676 - INFO - topic[/current_pose] adding connection to [http://192.168.188.252:34867/], count 0
+2019-12-03 15:59:35,677 - DEBUG - [/current_pose]: writing header
+2019-12-03 15:59:35,679 - DEBUG - receive_loop for [/current_velocity]
+2019-12-03 15:59:35,683 - DEBUG - receive_loop for [/current_pose]
+2019-12-03 15:59:48,807 - INFO - Publish lane: 200
+2019-12-03 15:59:49,307 - INFO - Publish lane: 200
+2019-12-03 15:59:49,807 - INFO - Publish lane: 200
+2019-12-03 15:59:50,307 - INFO - Publish lane: 200
+2019-12-03 15:59:50,807 - INFO - Publish lane: 200
+2019-12-03 15:59:51,307 - INFO - Publish lane: 200
+2019-12-03 15:59:51,807 - INFO - Publish lane: 200
+2019-12-03 15:59:52,307 - INFO - Publish lane: 200
+2019-12-03 15:59:52,807 - INFO - Publish lane: 200
+2019-12-03 15:59:53,307 - INFO - Publish lane: 200
+2019-12-03 15:59:53,807 - INFO - Publish lane: 200
+2019-12-03 15:59:54,307 - INFO - Publish lane: 200
+2019-12-03 15:59:54,807 - INFO - Publish lane: 200
+2019-12-03 15:59:55,307 - INFO - Publish lane: 200
+2019-12-03 15:59:55,807 - INFO - Publish lane: 200
+2019-12-03 15:59:56,308 - INFO - Publish lane: 200
+2019-12-03 15:59:56,808 - INFO - Publish lane: 200
+2019-12-03 15:59:57,308 - INFO - Publish lane: 200
+2019-12-03 15:59:57,807 - INFO - Publish lane: 200
+2019-12-03 15:59:58,307 - INFO - Publish lane: 200
+2019-12-03 15:59:58,807 - INFO - Publish lane: 200
+2019-12-03 15:59:59,307 - INFO - Publish lane: 200
+2019-12-03 15:59:59,807 - INFO - Publish lane: 200
+2019-12-03 16:00:00,308 - INFO - Publish lane: 200
+2019-12-03 16:00:00,808 - INFO - Publish lane: 200
+2019-12-03 16:00:01,307 - INFO - Publish lane: 200
+2019-12-03 16:00:01,807 - INFO - Publish lane: 200
+2019-12-03 16:00:02,307 - INFO - Publish lane: 200
+2019-12-03 16:00:02,807 - INFO - Publish lane: 200
+2019-12-03 16:00:03,307 - INFO - Publish lane: 200
+2019-12-03 16:00:03,807 - INFO - Publish lane: 200
+2019-12-03 16:00:04,307 - INFO - Publish lane: 200
+2019-12-03 16:00:04,808 - INFO - Publish lane: 200
+2019-12-03 16:00:05,307 - INFO - Publish lane: 200
+2019-12-03 16:00:05,807 - INFO - Publish lane: 200
+2019-12-03 16:00:06,307 - INFO - Publish lane: 200
+2019-12-03 16:00:06,807 - INFO - Publish lane: 200
+2019-12-03 16:00:07,307 - INFO - Publish lane: 200
+2019-12-03 16:00:07,807 - INFO - Publish lane: 200
+2019-12-03 16:00:08,308 - INFO - Publish lane: 200
+2019-12-03 16:00:08,807 - INFO - Publish lane: 200
+2019-12-03 16:00:09,308 - INFO - Publish lane: 200
+2019-12-03 16:00:09,808 - INFO - Publish lane: 200
+2019-12-03 16:00:10,307 - INFO - Publish lane: 200
+2019-12-03 16:00:10,807 - INFO - Publish lane: 200
+2019-12-03 16:00:11,307 - INFO - Publish lane: 200
+2019-12-03 16:00:11,808 - INFO - Publish lane: 200
+2019-12-03 16:00:12,307 - INFO - Publish lane: 200
+2019-12-03 16:00:12,807 - INFO - Publish lane: 200
+2019-12-03 16:00:13,307 - INFO - Publish lane: 200
+2019-12-03 16:00:13,810 - INFO - Publish lane: 200
+2019-12-03 16:00:14,308 - INFO - Publish lane: 200
+2019-12-03 16:00:14,807 - INFO - Publish lane: 200
+2019-12-03 16:00:15,308 - INFO - Publish lane: 200
+2019-12-03 16:00:15,807 - INFO - Publish lane: 200
+2019-12-03 16:00:16,307 - INFO - Publish lane: 200
+2019-12-03 16:00:16,807 - INFO - Publish lane: 200
+2019-12-03 16:00:17,307 - INFO - Publish lane: 200
+2019-12-03 16:00:17,808 - INFO - Publish lane: 200
+2019-12-03 16:00:18,308 - INFO - Publish lane: 200
+2019-12-03 16:00:18,807 - INFO - Publish lane: 200
+2019-12-03 16:00:19,307 - INFO - Publish lane: 200
+2019-12-03 16:00:19,807 - INFO - Publish lane: 200
+2019-12-03 16:00:20,308 - INFO - Publish lane: 200
+2019-12-03 16:00:20,808 - INFO - Publish lane: 200
+2019-12-03 16:00:21,307 - INFO - Publish lane: 200
+2019-12-03 16:00:21,808 - INFO - Publish lane: 200
+2019-12-03 16:00:22,307 - INFO - Publish lane: 200
+2019-12-03 16:00:22,808 - INFO - Publish lane: 200
+2019-12-03 16:00:23,308 - INFO - Publish lane: 200
+2019-12-03 16:00:23,807 - INFO - Publish lane: 200
+2019-12-03 16:00:24,308 - INFO - Publish lane: 200
+2019-12-03 16:00:24,808 - INFO - Publish lane: 200
+2019-12-03 16:00:25,307 - INFO - Publish lane: 200
+2019-12-03 16:00:25,794 - DEBUG - [/current_velocity]: writing header
+2019-12-03 16:00:25,796 - ERROR - Unable to initiate TCP/IP socket to 192.168.188.252:46455 (http://192.168.188.252:34867/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+2019-12-03 16:00:25,796 - DEBUG - [/base_waypoints]: writing header
+2019-12-03 16:00:25,797 - DEBUG - [/current_pose]: writing header
+2019-12-03 16:00:25,798 - WARNING - Unknown error initiating TCP/IP socket to 192.168.188.252:37459 (http://192.168.188.252:44683/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+2019-12-03 16:00:25,798 - INFO - topic[/base_waypoints] removing connection to http://192.168.188.252:44683/
+2019-12-03 16:00:25,798 - ERROR - Unable to initiate TCP/IP socket to 192.168.188.252:46455 (http://192.168.188.252:34867/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+2019-12-03 16:00:25,801 - DEBUG - [/traffic_waypoint]: writing header
+2019-12-03 16:00:25,802 - ERROR - Unable to initiate TCP/IP socket to 192.168.188.252:35283 (http://192.168.188.252:42333/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+2019-12-03 16:00:25,807 - INFO - Publish lane: 200
+2019-12-03 16:00:25,835 - DEBUG - publisherUpdate('/master', '/base_waypoints', [])
+2019-12-03 16:00:25,836 - DEBUG - publisherUpdate('/master', '/base_waypoints', []) returns (1, '', 0)
+2019-12-03 16:00:25,840 - DEBUG - publisherUpdate('/master', '/traffic_waypoint', [])
+2019-12-03 16:00:25,840 - DEBUG - publisherUpdate('/master', '/traffic_waypoint', []) returns (1, '', 0)
+2019-12-03 16:00:26,201 - DEBUG - removing connection to /pure_pursuit, connection error detected
+2019-12-03 16:00:26,201 - INFO - topic[/final_waypoints] removing connection to /pure_pursuit
+2019-12-03 16:00:26,202 - DEBUG - removing connection to /styx_server, connection error detected
+2019-12-03 16:00:26,202 - INFO - topic[/final_waypoints] removing connection to /styx_server
+2019-12-03 16:00:26,308 - INFO - Publish lane: 200
+2019-12-03 16:00:26,799 - WARNING - Unknown error initiating TCP/IP socket to 192.168.188.252:46455 (http://192.168.188.252:34867/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+2019-12-03 16:00:26,799 - DEBUG - receive_loop[/base_waypoints]: done condition met, exited loop
+2019-12-03 16:00:26,800 - WARNING - Unknown error initiating TCP/IP socket to 192.168.188.252:46455 (http://192.168.188.252:34867/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+2019-12-03 16:00:26,800 - INFO - topic[/current_velocity] removing connection to http://192.168.188.252:34867/
+2019-12-03 16:00:26,801 - INFO - topic[/current_pose] removing connection to http://192.168.188.252:34867/
+2019-12-03 16:00:26,804 - WARNING - Unknown error initiating TCP/IP socket to 192.168.188.252:35283 (http://192.168.188.252:42333/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+2019-12-03 16:00:26,804 - INFO - topic[/traffic_waypoint] removing connection to http://192.168.188.252:42333/
+2019-12-03 16:00:26,808 - INFO - Publish lane: 200
+2019-12-03 16:00:27,307 - INFO - Publish lane: 200
+2019-12-03 16:00:27,703 - DEBUG - removing connection to /rosout, connection error detected
+2019-12-03 16:00:27,704 - INFO - topic[/rosout] removing connection to /rosout
+2019-12-03 16:00:27,808 - INFO - Publish lane: 200
+2019-12-03 16:00:28,307 - INFO - Publish lane: 200
+2019-12-03 16:00:28,804 - DEBUG - receive_loop[/current_velocity]: done condition met, exited loop
+2019-12-03 16:00:28,804 - DEBUG - receive_loop[/current_pose]: done condition met, exited loop
+2019-12-03 16:00:28,805 - DEBUG - receive_loop[/traffic_waypoint]: done condition met, exited loop
+2019-12-03 16:00:28,808 - INFO - Publish lane: 200
+2019-12-03 16:00:29,308 - INFO - Publish lane: 200
+2019-12-03 16:00:29,808 - INFO - Publish lane: 200
+2019-12-03 16:00:30,307 - INFO - Publish lane: 200
+2019-12-03 16:00:30,790 - INFO - signal_shutdown [signal-2]
+2019-12-03 16:00:30,790 - DEBUG - registration cleanup starting
+2019-12-03 16:00:30,791 - DEBUG - unregisterSubscriber [/current_velocity]
+2019-12-03 16:00:30,791 - DEBUG - unregisterSubscriber [/traffic_waypoint]
+2019-12-03 16:00:30,791 - DEBUG - unregisterSubscriber [/base_waypoints]
+2019-12-03 16:00:30,791 - DEBUG - unregisterSubscriber [/current_pose]
+2019-12-03 16:00:30,792 - DEBUG - unregisterPublisher [/final_waypoints]
+2019-12-03 16:00:30,792 - DEBUG - unregisterPublisher [/rosout]
+2019-12-03 16:00:30,792 - DEBUG - unregisterService [/waypoint_updater/set_logger_level]
+2019-12-03 16:00:30,792 - DEBUG - unregisterService [/waypoint_updater/get_loggers]
+2019-12-03 16:00:30,793 - WARNING - cannot unregister with master due to network issues
+2019-12-03 16:00:30,794 - DEBUG - registration cleanup: master calls complete
+2019-12-03 16:00:30,794 - INFO - signal-2
+2019-12-03 16:00:30,926 - INFO - Shutdown signal received
+2019-12-03 16:00:30,948 - INFO - signal_shutdown [atexit]

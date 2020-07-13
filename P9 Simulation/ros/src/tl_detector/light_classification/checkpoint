@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/student/CarND-Capstone_YOLO/ros/src/tl_detector/light_classification/lenet"
+all_model_checkpoint_paths: "/home/student/CarND-Capstone_YOLO/ros/src/tl_detector/light_classification/lenet"
