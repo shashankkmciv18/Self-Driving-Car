@@ -48,9 +48,9 @@ Then Used YOLO and LeNet(recommended) for the same, which gave me pretty good re
 ## VISUAL REPRESENTATION
 [//]: # (Image References)
 
-[image1]: ./imgs/rl1.png "Model Detecting the Red lights"
-[image2]: ./imgs/yl1.png "Model Detection the Yellow lights"
-[image3]: ./imgs/gl1.png "Model Detection the Green lights"
+[image1]: ./imgs/rl1.jpg "Model Detecting the Red lights"
+[image2]: ./imgs/yl1.jpg "Model Detection the Yellow lights"
+[image3]: ./imgs/gl1.jpg "Model Detection the Green lights"
 
 ![alt text][image1]
 ![alt text][image2]
