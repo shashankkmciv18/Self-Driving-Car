@@ -59,9 +59,9 @@ This being the Capstone project required implementation of several topics that w
 * Earlier i tried to use my own model for both object Detection and Traffic light Classification, but that did not worked.</br>
 Then Used YOLO and LeNet(recommended) for the same, which gave me pretty good results</br>
 * Other package list can be found in ros/install-ubuntu.sh file
-#### Yolo 3 Architecture
+#### Yolo Architecture
 ![alt text][image7]
-#### Lenet 5 Architecture
+#### Lenet  Architecture
 ![alt text][image8]
 
 
@@ -85,4 +85,6 @@ Then Used YOLO and LeNet(recommended) for the same, which gave me pretty good re
 
 
 ## Furture Improvement
-The car always stops earlier than it was directed to.  It seems to be an issue in either DBW node or Waypont Updater node.       
+The car always stops earlier than it was directed to.  It seems to be an issue in either DBW node or Waypont Updater node.</br>
+Update the model on tensorflow2.x and newer verions of keras
+
