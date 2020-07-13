@@ -40,7 +40,7 @@ This being the Capstone project required implementation of several topics that w
 * Used [YOLO](https://github.com/pjreddie/darknet/wiki/YOLO:-Real-Time-Object-Detection) for object detection.
 * Used LeNet for traffic light classification
 
-## Key Points
+## Some insights
 * I had used ros kinetic for this project on Linus 18.04
 * Earlier i tried to use my own model for both object Detection and Traffic light Classification, but that did not worked.</br>
 Then Used YOLO and LeNet(recommended) for the same, which gave me pretty good results</br>
