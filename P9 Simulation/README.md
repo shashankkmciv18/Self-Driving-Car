@@ -45,6 +45,18 @@ This being the Capstone project required implementation of several topics that w
 * Earlier i tried to use my own model for both object Detection and Traffic light Classification, but that did not worked.</br>
 Then Used YOLO and LeNet(recommended) for the same, which gave me pretty good results</br>
 * Other package list can be found in ros/install-ubuntu.sh file
+## VISUAL REPRESENTATION
+[//]: # (Image References)
+
+[image1]: ./imgs/rl1.png "Model Detecting the Red lights"
+[image2]: ./imgs/yl1.png "Model Detection the Yellow lights"
+[image3]: ./imgs/gl1.png "Model Detection the Green lights"
+
+![alt text][image1]
+![alt text][image2]
+![alt text][image3]
+
+
 
 
 ## Furture Improvement
