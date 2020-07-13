@@ -43,7 +43,6 @@ I started initially with (0.1,0.03,2.0) for the steering control and (0.1,0.0,0.
 
 My implementation was able to acheive a maximum speed of 50 mph without any oscillations. For speeds above 50 mph, the vehicle behaves aggresively. Below video shows the output for 30 mph.
 
-<img src="output/output.gif" width="480" alt="Combined Image" />
 
 
 ---
