@@ -143,8 +143,9 @@ still be compilable with cmake and make./
 ## How to write a README
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
-## Model Explanation
-[image1]: ./img/result.png "best case"
+
+
+
 
 ### Overview
 
@@ -272,7 +273,26 @@ If there is only one trajectory that can be selected but unfortunately has colli
 #### 5. Update reference velocity: **"vehicle.cpp" line 234-240**
 
 If the reference velocity `ref_vel` is lower than max velocity `max_vel`, then add 0.2m/s to the `ref_vel`; otherwise if the reference velocity `ref_vel` is larger than max velocity `max_vel`, then minus 0.2m/s from the `ref_vel`.
+## Model Explanation
+[image1]: ./img/result.png "best case"
+[image2]: ./img/15_miles.png "best case"
+[image3]: ./img/20_miles.png "best case"
+[image4]: ./img/driving.png "best case"
+[image5]: ./img/simulator.png "best case"
 
+### Simulator
+Here is an image of Simulator</br>
+![alt text][image5]
+
+Here is an image While Driving</br>
+![alt text][image4]
+
+
+When Best Case is 20MPH</br>
+![alt text][image3]
+
+When Best Case is 15MPH</br>
+![alt text][image2]
 ### Performance
 
 The above proposed planning algorithm achieved a best distance without incident of 61.27 miles on my local machine. The average distance between two incidents is about 22 miles. The screenshot of the best test is shown below:
