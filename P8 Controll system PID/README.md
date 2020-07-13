@@ -43,8 +43,9 @@ I started initially with (0.1,0.03,2.0) for the steering control and (0.1,0.0,0.
 
 [//]: # (Image References)
 
-[image1]: ./output/c2.PNG "PID graph while Working"
+[image1]: ./output/c2.PNG "PID graph when it is not working propery;"
 
+[image2]: ./output/Capture.PNG "PID graph when it is  working propery;"
 
 ---
 
