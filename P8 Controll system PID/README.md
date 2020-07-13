@@ -41,8 +41,12 @@ I started initially with (0.1,0.03,2.0) for the steering control and (0.1,0.0,0.
 | Ki  | 0.00009  |  0.0022 |
 | Kd  | 1.002  |  0.0 |
 
-[image1]: ./output/c2.png "PID graph while Working"
+[//]: # (Image References)
 
+[image1]: ./output/c2.PNG "PID graph while Working"
+
+
+---
 
 ![alt text][image1]
 
