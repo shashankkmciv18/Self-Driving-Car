@@ -25,6 +25,15 @@ Please use **one** of the two installation options, either native **or** docker 
 ### Docker Installation
 [Install Docker](https://docs.docker.com/engine/installation/)
 
+
+## Project Overview
+This being the Capstone project required implementation of several topics that were introduced in the course. The objective is to drive a lap on a car first on the simulator and then on Carla (the testing car provided by Udacity) while following traffic signals. The driving route is given using a set of waypoints provided as input. There were primarily 4 areas on which we had to focus:
+* Perception
+* Planning
+* Control
+* Integration
+
+
 ## Project Highlights
 * Rewote styx server/bridge with C++ due to terrible performance and instability of original python codes. All ROS nodes can run at 50 Hz after rewriting the server.
 * Waypoint updater was coded in C++ too while I was struggling with server's performance issue.
