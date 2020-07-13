@@ -24,6 +24,13 @@ The goals / steps of this project are the following:
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+1.Grayscaled the image </br>
+2.Apply Canny Egde</br>
+3.Apply Gaussian Blur</br>
+4.Use Region of intrest concept</br>
+5.Apply hough lines </br>
+6.Find best fit lines </br>
+7.Draw lines </br>
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
@@ -39,8 +46,8 @@ One potential shortcoming would be what would happen when ...
 
 Another shortcoming could be ...
 
-Here's a [link to my video result](./test_videos_output/solidWhiteRight.mp4)
-Here's a [link to my video result](./test_videos_output/solidYellowLeft.mp4)
+Here's a [link to my SolidWhiteRight video result](./test_videos_output/solidWhiteRight.mp4)</br>
+Here's a [link to my Soldigyellowleft video result](./test_videos_output/solidYellowLeft.mp4)</br>
 
 ### 3. Suggest possible improvements to your pipeline
 
