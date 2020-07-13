@@ -33,6 +33,20 @@ This being the Capstone project required implementation of several topics that w
 * Control
 * Integration
 
+[//]: # (Image References)
+
+[image1]: ./imgs/rl1.jpg "Model Detecting the Red lights"
+[image2]: ./imgs/yl1.jpg "Model Detection the Yellow lights"
+[image3]: ./imgs/gl1.jpg "Model Detection the Green lights"
+[image4]: ./imgs/dbw_node_angular_z_vel_steering.jpg "Car"
+
+
+[image5]: ./imgs/frl1.jpg "Failed to detect red light"
+
+[image6]: ./imgs/fyl1.jpg "failed to detect yellow light "
+[image7]: ./imgs/yolov3.jpg "YOLO 3 Architecture "
+[image8]: ./imgs/lenet5.jpg "Lenet 5 Architecture "
+
 
 ## Project Highlights
 * Rewote styx server/bridge with C++ due to terrible performance and instability of original python codes. All ROS nodes can run at 50 Hz after rewriting the server.
@@ -45,19 +59,12 @@ This being the Capstone project required implementation of several topics that w
 * Earlier i tried to use my own model for both object Detection and Traffic light Classification, but that did not worked.</br>
 Then Used YOLO and LeNet(recommended) for the same, which gave me pretty good results</br>
 * Other package list can be found in ros/install-ubuntu.sh file
+![alt text][image7]
+
+![alt text][image8]
+
+
 ## VISUAL REPRESENTATION
-[//]: # (Image References)
-
-[image1]: ./imgs/rl1.jpg "Model Detecting the Red lights"
-[image2]: ./imgs/yl1.jpg "Model Detection the Yellow lights"
-[image3]: ./imgs/gl1.jpg "Model Detection the Green lights"
-[image4]: ./imgs/dbw_node_angular_z_vel_steering.jpg "Car"
-
-
-[image5]: ./imgs/frl1.jpg "Failed to detect red light"
-
-[image6]: ./imgs/fyl1.jpg "failed to detect yellow light "
-
 ![alt text][image1]
 
 ![alt text][image2]
