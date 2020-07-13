@@ -37,11 +37,10 @@ I started initially with (0.1,0.03,2.0) for the steering control and (0.1,0.0,0.
 
 |   | Steering  | Speed  |
 |---|---|---|
-| Kp  |  0.13 |  0.1 |
-| Ki  | 0.0001  |  0.002 |
-| Kd  | 1.0  |  0.0 |
+| Kp  |  0.13 |  0.12 |
+| Ki  | 0.00009  |  0.0022 |
+| Kd  | 1.002  |  0.0 |
 
-My implementation was able to acheive a maximum speed of 50 mph without any oscillations. For speeds above 50 mph, the vehicle behaves aggresively. Below video shows the output for 30 mph.
 
 
 
