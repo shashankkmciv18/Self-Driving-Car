@@ -36,8 +36,7 @@ My pipeline consisted of 8 steps.
 please there i have explained everythnig with detail
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
+here is an Greyscaled images <br>
 ![alt text][image1]
 
 Here's a [link to my SolidWhiteRight video result](./test_videos_output/solidWhiteRight.mp4)</br>
