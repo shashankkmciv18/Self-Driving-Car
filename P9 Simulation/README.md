@@ -1,6 +1,29 @@
 # CarND-Capstone
 The final project of Udacity Self-Driving Car Engineer</br>
 
+## Installation, Usage and System Details
+
+Please use **one** of the two installation options, either native **or** docker installation.
+
+### Native Installation
+
+* Be sure that your workstation is running Ubuntu 16.04 Xenial Xerus or Ubuntu 14.04 Trusty Tahir. [Ubuntu downloads can be found here](https://www.ubuntu.com/download/desktop).
+* If using a Virtual Machine to install Ubuntu, use the following configuration as minimum:
+  * 2 CPU
+  * 2 GB system memory
+  * 25 GB of free hard drive space
+
+  The Udacity provided virtual machine has ROS and Dataspeed DBW already installed, so you can skip the next two steps if you are using this.
+
+* Follow these instructions to install ROS
+  * [ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu) if you have Ubuntu 16.04.
+  * [ROS Indigo](http://wiki.ros.org/indigo/Installation/Ubuntu) if you have Ubuntu 14.04.
+* [Dataspeed DBW](https://bitbucket.org/DataspeedInc/dbw_mkz_ros)
+  * Use this option to install the SDK on a workstation that already has ROS installed: [One Line SDK Install (binary)](https://bitbucket.org/DataspeedInc/dbw_mkz_ros/src/81e63fcc335d7b64139d7482017d6a97b405e250/ROS_SETUP.md?fileviewer=file-view-default)
+* Download the [Udacity Simulator](https://github.com/udacity/CarND-Capstone/releases).
+
+### Docker Installation
+[Install Docker](https://docs.docker.com/engine/installation/)
 
 ## Project Highlights
 * Rewote styx server/bridge with C++ due to terrible performance and instability of original python codes. All ROS nodes can run at 50 Hz after rewriting the server.
