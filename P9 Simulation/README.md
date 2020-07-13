@@ -54,9 +54,9 @@ Then Used YOLO and LeNet(recommended) for the same, which gave me pretty good re
 [image4]: ./imgs/dbw_node_angular_z_vel_steering.jpg "Car"
 
 
-[image5]: ./imgs/frl1 "Failed to detect red light"
+[image5]: ./imgs/frl1.jpg "Failed to detect red light"
 
-[image6]: ./imgs/fyl1.jpg "Car"
+[image6]: ./imgs/fyl1.jpg "failed to detect yellow light "
 
 ![alt text][image1]
 
