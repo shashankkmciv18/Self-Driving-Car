@@ -7,8 +7,7 @@
 
 // for convenience
 using nlohmann::json;
-using std::string;
-
+using namespace std;
 // For converting back and forth between radians and degrees.
 constexpr double pi() { return M_PI; }
 double deg2rad(double x) { return x * pi() / 180; }
@@ -38,9 +37,16 @@ int main() {
   /**
    * Initialize the pid variable.
    */
-
-  pid.Init(0.13,0.00,1.0);
-  speed_pid.Init(0.1,0.002,0.0);
+  //Here we have to put out hyperparameter for tuning
+  // pid.Init(0.09,0.00,1.6);
+  // pid.Init(0.10,0.02,1.2);
+  // pid.Init(0.11,0.01,1.15);
+  // pid.Init(0.14,0.00,1.0);
+  pid.Init(0.135,0.00,1.01);
+  // speed_pid.Init(0.2,0.004,0.0);
+  // speed_pid.Init(0.3,0.006,0.0);
+  // speed_pid.Init(0.4,0.009,0.0);
+speed_pid.Init(0.109,0.0024,0.0);
 
 
   h.onMessage([&pid, &speed_pid](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, 
