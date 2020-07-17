@@ -45,6 +45,7 @@ It is rate of change of eroor.
 
 
 I started initially with (0.1,0.03,2.0) for the steering control and (0.1,0.0,0.0) for speed control. The final parameters for my controllers are: 
+
 [//]: # (Image References)
 
 [image1]: ./output/c2.PNG "PID graph when it is not working propery;"
@@ -54,6 +55,7 @@ I started initially with (0.1,0.03,2.0) for the steering control and (0.1,0.0,0.
 [image3]: ./output/1.PNG "PID graph when it is  working propery;"
 
 * This is where we need to tune our parameters
+
 ![alt text][image3]
 
 |   | Steering  | Speed  |
