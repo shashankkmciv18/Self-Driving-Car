@@ -52,7 +52,7 @@ I started initially with (0.1,0.03,2.0) for the steering control and (0.1,0.0,0.
 
 [image2]: ./output/Capture.PNG "PID graph when it is  working propery;"
 
-[image3]: ./output/1.PNG "PID graph when it is  working propery;"
+[image3]: ./output/1.png "PID graph when it is  working propery;"
 
 * This is where we need to tune our parameters
 
