@@ -93,6 +93,9 @@ My final model consisted of the following layers:
 
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
+For this  purpose i always rely on search based hyper parameter tuning which is present in code itself and for a long experiecne with this stuff, one thing i came to know that this way of tuning hyperparameter using GRid Search or Random search is way better than the manual method ,initially i was only getting an accuracy of 89% but after some fine tuning it was able to get 99% of accuracy.</br>
+So in this method the machine itself chooses the best optimizer batch size , and other hyper paramters like learning rate.It might take some time but in order to make an robust product we alsways prefer this.</br>
+Full detail of the model is in the picture present at bottom.
 For training my model i basically made an model initially which gave me 89% result  on validation dataset and afterr fine tuning it with random search  from tensorflow.kerastuner  accuracy of that model became 93% on the validation set without any data augmentation techniques.
 Model will give even more accuracy if the dataset will be large, for that there is an technique of data augmentation, which i will do in future in spare time.
 
@@ -123,6 +126,8 @@ Well Convolutional layer with best hyperparameters bring this model to an state 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
 Here are five German traffic signs that I found on the web:
+Here some image are difficult to even to be recognised by human eye like the 3rd one even then the model is able to predict nicely.
+
 
 ![alt text][image4]
 </br>
