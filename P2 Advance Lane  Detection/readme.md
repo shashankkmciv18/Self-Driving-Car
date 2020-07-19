@@ -116,7 +116,7 @@ I implemented this in the same file with the finction named as ` in the function
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./output_video/Finaloutput.mp4)
+Here's a [link to my video result](./output_video/Finaloutput.avi)
 
 ---
 
