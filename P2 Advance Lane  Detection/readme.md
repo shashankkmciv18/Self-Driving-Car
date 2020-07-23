@@ -128,3 +128,8 @@ One of the major challenge faced in this was finding an add coordinate for warpi
 This pipeline will mainly fail when there is a very sharp turn which will result in non detection of the lane and hence it will fail.
 I am trying to implement sliding window algorithm for making  it even more robust another technique which i am thinking is to use Deep learning model as using open cv is relatively slower to that.
 I have an rough sketch regarding this using like using Mixed Gaussian Ditribution alongside of Kalmanfilter and reverse Pid
+
+### Approval from Udacity
+[Approved]: ./Files/Approved.jpg "Approval"
+
+![alt text][Approved]

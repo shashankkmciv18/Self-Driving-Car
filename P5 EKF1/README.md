@@ -76,3 +76,7 @@ For the consequent measurements the Prdict-Update cycle of the Kalman filter is 
 # Here are the Results.
 ![Example run](./readme_files/ekf_screen_recording.gif)
 
+### Approval from Udacity
+[Approved]: ./Files/Approved.jpg "Approval"
+
+![alt text][Approved]

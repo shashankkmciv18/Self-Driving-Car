@@ -134,3 +134,9 @@ The data was also normalized using the Lambda function in Keras: `model.add(Lamb
 Finally, the data is randomized and 20% is used as a validation set during training, and also to be used as loss visualization, which is used to determine over/underfitting
 
 The training process is in batches, optimized through the use of a generator [Code line 46] and `yield` instead of `return` to retain the offset location of the batch in the full training dataset.
+
+
+### Approval from Udacity
+[Approved]: ./Files/Approved.jpg "Approval"
+
+![alt text][Approved]

@@ -207,3 +207,7 @@ For the rest image the model is itself present inside the Last section of main
 The output of trained Nueral Network is that it shows an number from 0-42 which basically means that 0 means some thing 1 means something and so on.Neueral Network may have taken various characterstic for this purpose ( basic purposes of the CNN like pattern matching and MaxPooling etc)
 ![alt text][image9] 
 
+### Approval from Udacity
+[Approved]: ./Files/Approved.jpg "Approval"
+
+![alt text][Approved]

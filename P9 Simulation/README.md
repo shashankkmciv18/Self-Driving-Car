@@ -88,3 +88,9 @@ Then Used YOLO and LeNet(recommended) for the same, which gave me pretty good re
 The car always stops earlier than it was directed to.  It seems to be an issue in either DBW node or Waypont Updater node.</br>
 Update the model on tensorflow2.x and newer verions of keras
 
+
+### Approval from Udacity
+[Approved]: ./Files/Approved.jpg "Approval"
+
+![alt text][Approved]
+

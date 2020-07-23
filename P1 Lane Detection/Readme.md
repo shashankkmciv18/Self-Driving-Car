@@ -61,3 +61,8 @@ Another shortcoming could be ...
 
 Reflection describes the current pipeline, identifies its potential shortcomings and suggests possible improvements. There is no minimum length. Writing in English is preferred but you may use any language.
 Using Bird eye view so that an better picture will come
+
+### Approval from Udacity
+[Approved]: ./Files/Approved.jpg "Approval"
+
+![alt text][Approved]

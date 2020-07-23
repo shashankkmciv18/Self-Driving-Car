@@ -303,3 +303,7 @@ The above proposed planning algorithm achieved a best distance without incident 
 * For now, the proposed method will fail if the vehicle ahead on the adjacent lane suddenly changes to the lane the main vehicle is on. One solution will be using more complex prediction models like AMM (autonomous multi modal), trajectory clustering or GNB (gaussian naive bayes) introduced in the lessons.
 * The parameters in the algorithms can be further tuned and the speed regulation method can be improved. 
 
+### Approval from Udacity
+[Approved]: ./Files/Approved.jpg "Approval"
+
+![alt text][Approved]
