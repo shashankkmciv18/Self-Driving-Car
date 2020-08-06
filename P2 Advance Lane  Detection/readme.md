@@ -113,7 +113,8 @@ I implemented this in the same file with the finction named as ` in the function
 12.I also have appended some of the image for an good visualisation </br>
 13.Get output image and other required images , in my case they are an image containng image of output   4 and 7, another image of containg output of step 3 and 6, left curvature and right curvature         values outpur of step  6 and the Ouputt of step 10 i.e the main ouput </br>
 14.Display it using opencv
-
+# Please open [Code_for_Video.ipynb](https://github.com/shashankkmciv18/Self-Driving-Car/blob/master/P2%20Advance%20Lane%20%20Detection/Code_for_Video.ipynb) file for the updated and more clear verison of code.</br>
+[Complete_code.ipynb](https://github.com/shashankkmciv18/Self-Driving-Car/blob/master/P2%20Advance%20Lane%20%20Detection/Complete_code.ipynb) consist of more raw code and a rough code that works, please view [this file](https://github.com/shashankkmciv18/Self-Driving-Car/blob/master/P2%20Advance%20Lane%20%20Detection/Code_for_Video.ipynb) for clear version of code.
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
 Here's a [link to my video result](./output_video/Finaloutput.avi)
