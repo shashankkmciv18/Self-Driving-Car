@@ -176,3 +176,8 @@ In the cases of both `num_particles` settings, the program finished in less than
 
 ![alt text][image1]
 ![alt text][image2]
+
+### Approval from Udacity
+[Approved]: ./Files/Approved.jpg "Approval"
+
+![alt text][Approved]
